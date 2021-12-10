@@ -1,0 +1,112 @@
+/* font-family: 'Kaushan Script';
+font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+header {
+    background: url(images/banner.jpeg);
+    background-size: cover;
+    width: 100%;
+    padding-left: 19%;
+    padding-right: 19%;
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 28px;
+    margin-bottom: 120px;
+}
+
+header .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+header .menu ul {
+    display: flex;
+    list-style: none;
+}
+
+header .menu ul li {
+    display: inline-block;
+    height: 25px;
+    padding-bottom: 5px;
+    margin: 20px;
+}
+
+header .menu ul li:hover {
+    border-bottom: 2px solid #fce38a;
+}
+
+header .menu ul li:nth-child(7) {
+    margin-right: 0;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-family: 'Kaushan Script';
+    font-size: 72px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+header .h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 0.9;
+    margin-bottom: 55px;
+}
+
+header .hr {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .hr hr {
+    width: 60px;
+    height: 3px;
+    border: none;
+    background-color: #ffffff;
+}
+
+header .button {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+header .button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

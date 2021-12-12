@@ -110,3 +110,9 @@ header .button a {
     text-transform: uppercase;
     cursor: pointer;
 }
+
+.bottom-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}

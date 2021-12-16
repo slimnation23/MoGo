@@ -115,4 +115,24 @@ header .button a {
     display: flex;
     justify-content: space-between;
     padding-bottom: 25px;
+    width: 100%;
 }
+
+.menu-item {
+    height: 3px;
+    width: 20%;
+    background: linear-gradient(to right,rgb(243, 129, 129) 10%, rgb(243, 129, 129) 10%, #ffffff 50%);
+    margin-bottom: 30px;
+}
+
+.bottom-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2.5;
+}
+
+.bottom-menu a b {
+    font-size: 24px;
+}
+  
